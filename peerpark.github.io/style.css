@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap');
+
+/*General*/
+* {
+    margin: 0;
+    padding: 0;
+    color: #676A74;
+}
+
+html {
+    font-family: 'Manrope', sans-serif;
+}
+
+.body {
+    margin: 0 15vw 0 15vw;
+}
+
+h1 {
+    text-shadow: 2px 2px 8px black;
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+
+
+footer {
+    margin-top: 10px;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+/*General end*/
+
+
+/*Navagation bar*/
+.navbar {
+    margin:0;
+    padding:20px;
+    text-align:center;
+}
+
+.navbar a {
+    display:inline;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    float: right;
+}
+
+.navbar a:hover {
+    color: #7396AD;
+    text-decoration: underline;
+
+}
+
+.logo-navbar {
+    float: left;
+    width: auto;
+    height: auto;
+    max-height: 25px;
+    margin-top: 11px
+}
+
+/*Navagation bar end*/
+
+/*Banner*/
+.banner-price {
+    height: 30vh;
+    background-image: url("images/sky1.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+.banner-product {
+    height: 30vh;
+    background-image: url("images/sky2.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+.banner-about {
+    height: 30vh;
+    background-image: url("images/sky3.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+.banner-title {
+    position: absolute;
+    left: 50%;
+    top: 21vh;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+/*Banner end*/
+
+
+/*index*/
+.front {
+    height: 100vh;
+    background-image: url("images/city1.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+.header {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.parking {
+    margin: 20px;
+	background-color:#ffffff;
+	border-radius:28px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+    font-family: 'Manrope', sans-serif;
+	color:#000000;
+	font-weight: 500;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #a8a8a8;
+}
+.parking:hover {
+	background-color:#BDF2E7;
+}
+.parking:active {
+	position:relative;
+	top:1px;
+}
+/*index end*/
+
+
+/*price*/
+.rentfee {
+    margin-left: 5%;
+    margin-top: 70px;
+    float: left;
+}
+
+.rentfee h2 {
+	background-color:#4C6DBD;
+	border-radius:25px;
+	border:3px solid #304a86;
+    color: #252829;
+	font-weight: 300;
+	padding:15px 65px;
+	box-shadow:5px 5px 3px #424547;
+    width: 120px;
+    text-align: center;
+}
+
+.rent-p {
+    background-color:#6288e0a2;
+	border-radius:5px;
+    color: #4f525c;
+	padding:15px 30px;
+    width: 165px;
+    margin-left: 6.5%;
+    display: none;
+    font-size: 17px;
+}
+
+.rentfee h2:hover {
+    background-color: #7697e6;
+    border: 3px solid #4C6DBD;
+}
+
+
+.servicefee {
+    margin-left: 10.75%;
+    float: left;
+    margin-top: 70px;
+}
+
+.servicefee h2 {
+	background-color:#84e6d2;
+	border-radius:25px;
+	border:3px solid #5ebba8;
+    color: #252829;
+	font-weight: 300;
+	padding:15px 65px;
+	box-shadow:5px 5px 3px #424547;
+    width: 120px;
+    text-align: center;
+}
+
+.serv-p {
+    background-color:#bdf2e7cb;
+	border-radius:5px;
+    color: #4f525c;
+	padding:15px 30px;
+    width: 163px;
+    margin-left: 7.25%;
+    display: none;
+    font-size: 17px;
+}
+
+.servicefee h2:hover {
+    background-color: #ace7db;
+    border: 3px solid #84e6d2;
+}
+
+
+.membership {
+    margin-left: 10.5%;
+    margin-top: 70px;
+    float: left;
+}
+
+.membership h2 {
+	background-color:#7ABD6C;
+	border-radius:25px;
+	border:3px solid #4a8b3d;
+    color: #252829;
+	font-weight: 300;
+	padding:15px 65px;
+	box-shadow:5px 5px 3px #424547;
+    width: 120px;
+    text-align: center;
+}
+
+.memb-p {
+    background-color:#abd1a4dc;
+	border-radius:5px;
+    color: #4f525c;
+	padding:15px 30px;
+    width: 163px;
+    margin-left: 7.25%;
+    display: none;
+    font-size: 17px;
+}
+
+.membership li{
+    font-size: 14px;
+    margin-left: 26px;
+    line-height: 1;
+}
+
+
+
+.membership h2:hover {
+    background-color: #afe6a4;
+    border: 3px solid #7ABD6C;
+}
+
+.show {
+    display: block;
+}
+/*price end*/
+
+/*image*/
+#MapExample {
+	max-width: 100%;
+	max-height: auto;
+}
+
+.banner-demo {
+    height: 30vh;
+    background-image: url("images/city2.jpg");
+    background-size: cover;
+    text-align: center;
+}
